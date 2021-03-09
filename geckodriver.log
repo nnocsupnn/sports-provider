@@ -1,0 +1,551 @@
+1615321703966	geckodriver	INFO	Listening on 127.0.0.1:58905
+1615321707031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilejJteds"
+*** You are running in headless mode.
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615321708252	Marionette	INFO	Listening on port 58914
+1615321708600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+s, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615321742374	Marionette	INFO	Stopped listening on port 59041
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615321853208	geckodriver	INFO	Listening on 127.0.0.1:59247
+1615321856291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilekqTlnL"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615321858448	Marionette	INFO	Listening on port 59257
+1615321858975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615321935511	Marionette	INFO	Stopped listening on port 59257
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofiletsxSbR"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615321901258	Marionette	INFO	Listening on port 59391
+1615321901667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615321909184	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615322775329	Marionette	INFO	Stopped listening on port 59391
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ppData\\Local\\Temp\\rust_mozprofilez9TtdZ"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615321934392	Marionette	INFO	Listening on port 59518
+1615321934448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615321942205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615322042610	Marionette	INFO	Stopped listening on port 59518
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615322051426	geckodriver	INFO	Listening on 127.0.0.1:59735
+1615322054511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileQaqaoS"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615322056621	Marionette	INFO	Listening on port 59746
+1615322056669	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615322064536	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615322224246	Marionette	INFO	Stopped listening on port 59746
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615322294595	geckodriver	INFO	Listening on 127.0.0.1:60172
+1615322297663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileo7uzRN"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615322299899	Marionette	INFO	Listening on port 60183
+1615322300335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615322308142	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615322310408	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615322315935	Marionette	INFO	Stopped listening on port 60183
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615325338032	geckodriver	INFO	Listening on 127.0.0.1:62227
+1615325341107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofile0YFrb6"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325343038	Marionette	INFO	Listening on port 62236
+1615325343153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325352361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325567923	Marionette	INFO	Stopped listening on port 62236
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofiletW5tSM"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325428139	Marionette	INFO	Listening on port 62431
+1615325428279	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325436611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325843973	Marionette	INFO	Stopped listening on port 62431
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325499458	Marionette	INFO	Listening on port 62590
+1615325499545	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325535942	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325544711	Marionette	INFO	Stopped listening on port 62591615325546567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileuyO1Ak"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325548728	Marionette	INFO	Listening on port 62724
+1615325549253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325557271	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325566338	Marionette	INFO	Stopped listening on port 62724
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615325682911	geckodriver	INFO	Listening on 127.0.0.1:62963
+1615325685985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileXo9R1c"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325688062	Marionette	INFO	Listening on port 62972
+1615325688158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325695704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325843117	Marionette	INFO	Stopped listening on port 62972
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileZGqRtw"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325820266	Marionette	INFO	Listening on port 63209
+1615325820334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325827685	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325842391	Marionette	INFO	Stopped listening on port 63209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615325901359	geckodriver	INFO	Listening on 127.0.0.1:63353
+1615325904397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofile9xsEVd"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325906532	Marionette	INFO	Listening on port 63362
+1615325906573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325914983	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325963697	Marionette	INFO	Stopped listening on port 63362
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileycoAKr"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615325944153	Marionette	INFO	Listening on port 63486
+1615325944268	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615325952439	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615325964448	Marionette	INFO	Stopped listening on port 63486
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615326006789	geckodriver	INFO	Listening on 127.0.0.1:63652
+1615326009867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileGEZmda"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326011918	Marionette	INFO	Listening on port 63662
+1615326012013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326020475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326108324	Marionette	INFO	Stopped listening on port 63662
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilefg8HxW"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326087760	Marionette	INFO	Listening on port 63847
+1615326087824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326095497	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326105462	Marionette	INFO	Stopped listening on port 63847
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615326181102	geckodriver	INFO	Listening on 127.0.0.1:64019
+1615326184186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilekul1Id"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326186157	Marionette	INFO	Listening on port 64030
+1615326186243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326194438	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+[Parent 24984, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1615326361401	Marionette	INFO	Stopped listening on port 64030
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326230215	Marionette	INFO	Listening on port 64167
+1615326230262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326237549	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326363875	Marionette	INFO	Stopped listening on port 64167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofiletAornK"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326341988	Marionette	INFO	Listening on port 64381
+1615326342433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326350575	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326364736	Marionette	INFO	Stopped listening on port 64381
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615326432368	geckodriver	INFO	Listening on 127.0.0.1:64562
+1615326435450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileqq3Afl"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326437643	Marionette	INFO	Listening on port 64571
+1615326438107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326446543	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326683346	Marionette	INFO	Stopped listening on port 64571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileDwbfUo"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326496453	Marionette	INFO	Listening on port 64710
+1615326496988	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-191101121011.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-191101121011.js, line 1: unreachable code after return statement
+1615326504354	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326682443	Marionette	INFO	Stopped listening on port 64710
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofile8uFg9M"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326548409	Marionette	INFO	Listening on port 64855
+1615326548446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326556815	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326684234	Marionette	INFO	Stopped listening on port 64855
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilenjNdzc"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326602746	Marionette	INFO	Listening on port 65005
+1615326602790	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-191101121011.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-191101121011.js, line 1: unreachable code after return statement
+1615326610629	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326627421	Marionette	INFO	Stopped listening on port 65005
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615326653642	geckodriver	INFO	Listening on 127.0.0.1:65166
+1615326656722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileObf5OP"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326658781	Marionette	INFO	Listening on port 65178
+1615326658869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326666969	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615326680591	Marionette	INFO	Stopped listening on port 65178
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615326836436	geckodriver	INFO	Listening on 127.0.0.1:65398
+1615326839520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileMBmcV7"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326841509	Marionette	INFO	Listening on port 65407
+1615326841566	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326849386	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:332:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:395:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:3009:5
+onClosed@chrome://marionette/content/server.js:196:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+1615326862764	Marionette	INFO	Stopped listening on port 65407
+1615326864613	geckodriver	INFO	Listening on 127.0.0.1:65518
+1615326867671	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilesTXRIg"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326869763	Marionette	INFO	Listening on port 65528
+1615326869824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326877919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:332:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:395:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:3009:5
+onClosed@chrome://marionette/content/server.js:196:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+1615327262362	Marionette	INFO	Stopped listening on port 65528
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilea8vEmh"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615326930753	Marionette	INFO	Listening on port 49283
+1615326931221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615326939494	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:332:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:395:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:3009:5
+onClosed@chrome://marionette/content/server.js:196:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615327509108	Marionette	INFO	Stopped listening on port 49283
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ppData\\Local\\Temp\\rust_mozprofileIgAaw9"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615327133324	Marionette	INFO	Listening on port 49547
+1615327133382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615327138474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615327261207	Marionette	INFO	Stopped listening on port 49547
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileSTFFhp"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615327159505	Marionette	INFO	Listening on port 49642
+1615327159978	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615327165443	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615327260202	Marionette	INFO	Stopped listening on port 49642
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615327312694	geckodriver	INFO	Listening on 127.0.0.1:49884
+1615327315766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofile9OBIun"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615327317835	Marionette	INFO	Listening on port 49893
+1615327317920	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615327324909	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615327510190	Marionette	INFO	Stopped listening on port 49893
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofilezqqhVi"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615327397613	Marionette	INFO	Listening on port 50036
+1615327397711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615327405256	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615327510855	Marionette	INFO	Stopped listening on port 50036
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\Onin\\AppData\\Local\\Temp\\rust_mozprofileDQfPRO"
+JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615327509426	Marionette	INFO	Listening on port 50228
+1615327509544	Marionette	WARN	TLS certificate errors will be ignored for this session
