@@ -549,3 +549,10 @@ JavaScript error: ew4vy5fplqb.cfg, line 2: ReferenceError: Components is not def
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615327509426	Marionette	INFO	Listening on port 50228
 1615327509544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-210308130833.js, line 1: unreachable code after return statement
+1615327517623	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
