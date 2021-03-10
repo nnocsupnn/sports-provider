@@ -20,7 +20,7 @@ class Crawler:
 
 
 	def crawl():
-		srcUrl = "https://www.oddsportal.com/soccer/italy/primavera-1/juventus-torino-IclkK9KD/"
+		srcUrl = "https://www.oddsportal.com/basketball/usa/nba-g-league/santa-cruz-warriors-lakeland-magic-hA7TQlan/"
 
 		# Set browser
 		gecko_options = Options()
@@ -34,32 +34,56 @@ class Crawler:
 		browser.implicitly_wait(10)
 		browser.set_page_load_timeout(30)
 
-		data = WebDriverWait(browser, 10).until(
-			EC.element_to_be_clickable((By.XPATH, "//a[contains(@title, 'Asian Handicap')]"))
-		)
+		oddTypes = [
+			# '1X2',
+			'Asian Handicap',
+			# 'Home/Away',
+			'Over/Under',
+			# 'Draw No Bet',
+			'European Handicap',
+			# 'Double Chance',
+			# 'To Qualify',
+			# 'Correct Score',
+			# 'Half Time / Full Time',
+			# 'Odd or Even',
+			# 'Both Teams to Score'
+		]
 
-		print("clicking tab..")
+		while True:
+			sleep(1)
+			for _type in oddTypes:
+				try:
+					print("Checking market type " + _type)
+					data = WebDriverWait(browser, 5).until(
+						EC.element_to_be_clickable((By.XPATH, "//a[contains(@title, '" + _type + "')]"))
+					)
 
-		d = data.click()
+					print("clicking tab..")
 
-		oddsTable = WebDriverWait(browser, 10).until(
-			EC.element_to_be_clickable((By.XPATH, "//div[contains(@id, 'odds-data-table')]"))
-		)
+					d = data.click()
 
-		odds = oddsTable.find_elements_by_class_name('table-container')
-		for odd in odds:
-			tds = odd.find_elements_by_class_name("table-header-light")
+					oddsTable = WebDriverWait(browser, 2).until(
+						EC.element_to_be_clickable((By.XPATH, "//div[contains(@id, 'odds-data-table')]"))
+					)
 
-			for td in tds:
-				title = td.find_element_by_tag_name('strong')
-				oddElements = td.find_elements_by_class_name('chunk-odd')
-				odds = []
+					odds = oddsTable.find_elements_by_class_name('table-container')
+					for odd in odds:
+						tds = odd.find_elements_by_class_name("table-header-light")
 
-				for idx, oddElement in enumerate(oddElements):
-					oddValues = oddElement.find_element_by_tag_name('a')
-					odds.append({
-						"index": idx,
-						"odd": oddValues.text
-					})
+						for td in tds:
+							title = td.find_element_by_tag_name('strong')
+							oddElements = td.find_elements_by_class_name('chunk-odd')
+							odds = []
 
-				print(title.text, odds)
+							for idx, oddElement in enumerate(oddElements):
+								oddValues = oddElement.find_element_by_xpath("//a[contains(@xparam, 'odds_text')]")
+								odds.append({
+									"index": idx,
+									"odd": oddValues.text
+								})
+
+							print(title.text, odds)
+
+				except Exception as error:
+					print(error)
+		
