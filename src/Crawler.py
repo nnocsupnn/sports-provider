@@ -14,13 +14,14 @@ import json
 
 
 class Crawler:
+	src = ""
 
 	def __init__(self):
-		print('Crawler')
+		print("Crawling..")
 
 
-	def crawl():
-		srcUrl = "https://www.oddsportal.com/basketball/usa/nba-g-league/santa-cruz-warriors-lakeland-magic-hA7TQlan/"
+	def crawl(self, path):
+		self.src = path
 
 		# Set browser
 		gecko_options = Options()
@@ -30,17 +31,17 @@ class Crawler:
 		browser = webdriver.Firefox(options=gecko_options)
 
 		# Load the page
-		browser.get(srcUrl)
+		browser.get(self.src)
 		browser.implicitly_wait(10)
 		browser.set_page_load_timeout(30)
 
 		oddTypes = [
 			# '1X2',
-			'Asian Handicap',
+			# 'Asian Handicap',
 			# 'Home/Away',
-			'Over/Under',
+			'Over/Under'
 			# 'Draw No Bet',
-			'European Handicap',
+			# 'European Handicap',
 			# 'Double Chance',
 			# 'To Qualify',
 			# 'Correct Score',
@@ -49,41 +50,78 @@ class Crawler:
 			# 'Both Teams to Score'
 		]
 
+		defDict = { 
+			'1X2': 'wdl',
+			'Home/Away': 'ha',
+			'Draw No Bet': 'dnb',
+			'Double Chance': 'dc',
+			'To Qualify': 'tq',
+			'Correct Score': 'cs',
+			'Half Time / Full Time': 'htft',
+			'Odd or Even': 'oe',
+			'Both Teams to Score': 'bts'
+		}
+
 		while True:
 			sleep(1)
 			for _type in oddTypes:
 				try:
-					print("Checking market type " + _type)
-					data = WebDriverWait(browser, 5).until(
-						EC.element_to_be_clickable((By.XPATH, "//a[contains(@title, '" + _type + "')]"))
-					)
+					odds = []
+					if _type in defDict:
+						print(_type, defDict[_type])
+						# self[defDict[_type]](_type, browser)
+					else:
+						odds = self.defaultMarket(_type, browser)
 
-					print("clicking tab..")
-
-					d = data.click()
-
-					oddsTable = WebDriverWait(browser, 2).until(
-						EC.element_to_be_clickable((By.XPATH, "//div[contains(@id, 'odds-data-table')]"))
-					)
-
-					odds = oddsTable.find_elements_by_class_name('table-container')
-					for odd in odds:
-						tds = odd.find_elements_by_class_name("table-header-light")
-
-						for td in tds:
-							title = td.find_element_by_tag_name('strong')
-							oddElements = td.find_elements_by_class_name('chunk-odd')
-							odds = []
-
-							for idx, oddElement in enumerate(oddElements):
-								oddValues = oddElement.find_element_by_xpath("//a[contains(@xparam, 'odds_text')]")
-								odds.append({
-									"index": idx,
-									"odd": oddValues.text
-								})
-
-							print(title.text, odds)
+					print(odds)
 
 				except Exception as error:
 					print(error)
+
+
+
+
+	# For default markets
+	def defaultMarket(self, _type, browser):
+		print("Checking market type " + _type)
+
+		data = WebDriverWait(browser, 5).until(
+			EC.element_to_be_clickable((By.XPATH, "//a[contains(@title, '" + _type + "')]"))
+		)
+
+		d = data.click()
+
+		oddsTable = WebDriverWait(browser, 2).until(
+			EC.presence_of_element_located((By.XPATH, "//div[contains(@id, 'odds-data-table')]"))
+		)
+
+		dataTable = oddsTable.find_elements_by_class_name("table-container")
 		
+		oddsData = []
+		for j, odd in enumerate(dataTable):
+
+
+			showMore = odd.find_element_by_xpath("div[contains(@class, 'table-header-light')]//a[contains(.,'Compare odds')]")
+			showMore.click()
+
+			oddTab = odd.find_element_by_class_name('detail-odds')
+
+			tBody = oddTab.find_element_by_tag_name('tbody')
+			
+			rows = tBody.find_elements_by_tag_name("td")
+			
+			# ths = teeHeds.find_elements_by_tag_name("th")
+
+			field = {}
+			for x, row in enumerate(rows):
+				v = row.text.replace(" ", "")
+				field[x] = v
+				continue
+
+			oddsData.append(field)
+
+		return oddsData
+
+
+	def wdl(self, _type, browser):
+		print("wdl")
